@@ -22,12 +22,16 @@
   <body>
     <header>
       <form class="search" action="https://cn.bing.com/search">
-        <input type="text" name="q" placeholder="Search" id="mySearch" />
-        <span
-          class="clear"
-          onclick="document.querySelector('#mySearch').value=''"
-          >X</span
-        >
+        <div class="input">
+          <input type="text" name="q" placeholder="Search" id="mySearch" />
+          <div
+            class="clear"
+            onclick="document.querySelector('#mySearch').value=''"
+          >
+            X
+          </div>
+        </div>
+
         <button type="submit">搜索</button>
       </form>
     </header>
@@ -47,6 +51,7 @@
         </li>
       </ul>
     </main>
+    ``
 
     <script src="//at.alicdn.com/t/font_2789860_vb3fzlgynle.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
